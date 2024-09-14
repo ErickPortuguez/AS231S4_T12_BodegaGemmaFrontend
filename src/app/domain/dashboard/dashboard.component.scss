@@ -1,0 +1,43 @@
+.grid-container {
+  margin: 20px;
+}
+
+.dashboard-card {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.more-button {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
+.dashboard-card-content {
+  text-align: start;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  border-left: 1px solid #11111165;
+  color: #ffffff;
+}
+mat-card-header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+mat-icon{
+  font-size: 70px;
+  width: auto;
+  height: auto;
+  color: #ffffff;
+}
+.mat-h1{
+  border-bottom: 1.5px solid rgb(0, 0, 0);
+  width: 200px;
+}
